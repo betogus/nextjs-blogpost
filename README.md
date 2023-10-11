@@ -1,38 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desarrollo de un Blog con Next.js, TypeScript y más
 
-## Getting Started
+Inspirado en los tutoriales del curso en línea de Dave Gray, "Next.js Full Course for Beginners" en YouTube, realicé un mini proyecto de un blog. A continuación, destacaré algunas de las ventajas clave de las herramientas que he utilizado.
 
-First, run the development server:
+## Server-Side Rendering (SSR)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- SSR es ideal cuando tienes contenido que cambia con frecuencia o es personalizado para cada solicitud. Es útil en aplicaciones web que requieren autenticación o muestran datos en tiempo real. También es adecuado para mejorar el SEO, ya que las páginas se generan en tiempo real en el servidor.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Static Site Generation (SSG)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- SSG es la elección perfecta cuando tienes contenido que cambia con menos frecuencia y puedes generar páginas de antemano durante la compilación. Es común en sitios web de contenido estático, blogs y sitios con contenido que no se actualiza constantemente. Proporciona tiempos de carga ultrarrápidos y una experiencia de usuario ágil.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Static Pages
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Las Static Pages son ideales para contenido que rara vez cambia, como páginas de "Acerca de" o "Contacto". Son fáciles de crear y ofrecen un tiempo de carga rápido. Si tienes contenido estático que no requiere procesamiento en el servidor en tiempo real, las Static Pages son una elección eficaz.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## TypeScript
 
-## Learn More
+- **Tipado Estático**: TypeScript proporciona un tipado estático que atrapa errores en tiempo de compilación, mejorando la calidad y la confiabilidad del código.
 
-To learn more about Next.js, take a look at the following resources:
+- **Colaboración en Equipo**: La documentación clara y el autocompletado facilitan la colaboración y la comprensión del código entre miembros del equipo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Rendimiento y Escalabilidad**: Next.js ofrece enrutamiento incorporado, lo que facilita la creación de aplicaciones web de alto rendimiento y escalables.
 
-## Deploy on Vercel
+- **Facilidad de Despliegue**: Integración con servicios de alojamiento y despliegue sencillo en plataformas populares.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Gracias a las lecciones de Dave Gray, he podido aprovechar al máximo estas herramientas para desarrollar mi blog de manera eficiente y profesional.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Link al curso "Next.js Full Course for Beginners" de Dave Gray](https://www.youtube.com/watch?v=843nec-IvW0&t=11915s)
